@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
+.App input {
+  border-radius: 6px;
+  font-size: 2em;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  background-color: #cef;
+}
+
+.App button {
+  border-radius: 6px;
+  font-size: 2em;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  background-color: white;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #0066ff;
+  color: #cef;
+  border-color: #0066ff;
+}
